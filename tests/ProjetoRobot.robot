@@ -12,5 +12,6 @@ Caso de Teste 01: Pesquisar produto existente
   Clicar no produto "Blouse"
   Clicar na no botão do carrinho
   Continuar no Checkout
+  Continuar para o pagamento
 
 

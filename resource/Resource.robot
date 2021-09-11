@@ -30,7 +30,13 @@ Clicar no produto "Blouse"
   Click Element     xpath=//*[@id="center_column"]/ul/li/div/div[1]/div/a[1]/img
 
 Clicar na no botão do carrinho
+  Wait Until Element Is Visible    id=bigpic
   Click Element     xpath=//*[@id="add_to_cart"]/button/span
 
 Continuar no Checkout
-  Click Element     xpath=//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a/span/text()
+  Wait Until Element Is Visible    class=icon-ok
+  Click Element     xpath=//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a/span
+
+Continuar para o pagamento
+  Wait Until Element Is Visible    xpath=//*[@id="product_2_7_0_0"]/td[1]/a
+  Click Element     xpath=//*[@id="center_column"]/p[2]/a[1]/span
